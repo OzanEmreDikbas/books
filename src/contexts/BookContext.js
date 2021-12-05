@@ -47,14 +47,19 @@ export default React.createContext([
     ]);
 
 
-// 1. Default Value---> this.context
+// 1. Default Value ---> this.context
 // context nesnemizi oluşturduk
 // başlangıç değeri verdik ve export ettik
 // ilgili componente import etik
 // context type yardımıyla contexti ilgili componente atadık
-//this.context yardımıyla ilgili veriye ulaştık.
+// this.context yardımıyla ilgili veriye ulaştık.
 
 
 
 // 2. Provider ---> Consumer
+// - Class comp olusturduk ve veriyi state içerisine koyduk.
+// - Contexte ait Provider ile State te bulunan veriyi aldık
+// - Parent child ilskisi {this.props.children}
+// - Veriyi gondereceğimiz componenta Context import ediyoruz.
+// - Render içersinde Consumer ile Proider dan gelen veriyi yakalıyoruz.
 
